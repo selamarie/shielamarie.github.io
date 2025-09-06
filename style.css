@@ -1,0 +1,79 @@
+/* GENERAL */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    background-color: #00c2ff;
+    color: white;
+    padding: 30px 10px;
+}
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+header p {
+    margin: 5px 0 15px 0;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* SECTION */
+section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* PROJECTS */
+.project {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* CONTACT */
+#contact a {
+    color: #00c2ff;
+    text-decoration: none;
+}
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 22px;
+    }
+}
